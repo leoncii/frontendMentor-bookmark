@@ -280,6 +280,9 @@
   max-width: 580px;
   margin: 2em auto;
 }
+.carousel-content {
+  cursor: pointer;
+}
 .carousel-content[open] .carousel-header {
   border: none;
 }
@@ -292,7 +295,7 @@
   font-size: 0.9em;
 }
 .carousel-header:focus {
-  outline: 0;
+  outline: none;
 }
 .carousel-header::-webkit-details-marker {
   color: var(--softBlue);
@@ -415,6 +418,10 @@
   --grayishBlue: #9194a1;
   --veryDarkBlue: #252b46;
   --lightGRay: #e5e5e5;
+}
+:root ::selection {
+  color: var(--veryDarkBlue);
+  background: var(--softBlue);
 }
 body {
   font-family: 'Rubik', sans-serif;

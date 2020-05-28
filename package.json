@@ -1,0 +1,25 @@
+{
+  "name": "bookmark-landing-master",
+  "version": "1.0.0",
+  "description": "Challenge #3 by FrontendMentor.io",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoncii/frontendMentor-bookmark.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoncii/frontendMentor-bookmark/issues"
+  },
+  "homepage": "https://github.com/leoncii/frontendMentor-bookmark#readme"
+}
